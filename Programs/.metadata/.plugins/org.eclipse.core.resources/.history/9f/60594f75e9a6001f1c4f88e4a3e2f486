@@ -1,0 +1,5 @@
+#pragma once
+
+ADC_HandleTypeDef hadc1;
+
+int getADCVal(int knobNum);

@@ -1,0 +1,4 @@
+#pragma once
+
+
+ADC_HandleTypeDef hadc1;

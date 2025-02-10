@@ -1,0 +1,35 @@
+/*
+ * synth.c
+ *
+ *  Created on: Nov 26, 2024
+ *      Author: joels
+ */
+
+#include "synth.h"
+
+
+// ======================================================================
+void note_off(uint8_t midi_cmd, uint8_t midi_param0, uint8_t midi_param1)
+{
+
+}
+
+// ======================================================================
+void note_on(uint8_t midi_cmd, uint8_t midi_param0, uint8_t midi_param1)
+{
+  int8_t cur_idx = MAX_POLYPHONY;
+  for(int8_t j = 0; j < MAX_POLYPHONY; j++) {
+    if(0 == adsr_active(&(the_synth.envelopes[j]), the_synth.synth_time)) {
+      // found a spot!
+      cur_idx = j;
+      break;
+    }
+  }
+  if(cur_idx < MAX_POLYPHONY) {
+    printf("Note on:  %d %d %d\r\n", cur_idx, midi_param0, midi_param1);
+    wavetable_note_on(&(the_synth.wavetables[cur_idx]), midi_param0, midi_param1);
+    adsr_note_on(&(the_synth.envelopes[cur_idx]), midi_param1, the_synth.synth_time);
+  } else {
+    printf("Note on:  [NOPE] %d %d\r\n", midi_param0, midi_param1);
+  }
+}

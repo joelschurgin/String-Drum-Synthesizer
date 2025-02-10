@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ECE445-V2/Core/Inc/midisynth.h&apos; to &apos;midi.h&apos;" description="Rename resource &apos;midisynth.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/midisynth.h" name="midi.h" stamp="1732601477068" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ECE445-V2/Core/Src/midisynth.c&apos; to &apos;midi.c&apos;" description="Rename resource &apos;midisynth.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/midisynth.c" name="midi.c" stamp="1732601488333" updateReferences="true"/>
+</session>

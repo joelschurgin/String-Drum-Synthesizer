@@ -1,0 +1,7 @@
+#pragma once
+
+#include "stm32f4xx_hal.h"
+
+ADC_HandleTypeDef hadc1;
+
+uint32_t getADCVal(int knobNum);

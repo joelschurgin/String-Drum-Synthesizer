@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ECE445-V2/Core/Src/EmotiveKnobs&apos; to &apos;EmotiveKnobs.cpp&apos;" description="Rename resource &apos;EmotiveKnobs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/EmotiveKnobs" name="EmotiveKnobs.cpp" stamp="1732070548246" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ECE445-V2/Core/Src/EmotiveKnobs.cpp&apos; to &apos;EmotiveKnobs.c&apos;" description="Rename resource &apos;EmotiveKnobs.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/EmotiveKnobs.cpp" name="EmotiveKnobs.c" stamp="1732071310067" updateReferences="true"/>
+</session>

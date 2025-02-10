@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:445Project Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ECE445-V2 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:445Project\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:445Project\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ECE445-V2\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:445Project\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:445Project\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
